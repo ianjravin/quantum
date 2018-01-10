@@ -8,7 +8,10 @@
 <meta content="" name="description" />
 <meta content="" name="author" />
 
-<script src="/cdn-cgi/apps/head/vAzQ3pO_LVF9Y_-CSxLP87NslSA.js"></script><link href="assets/plugins/pace/pace-theme-flash.css" rel="stylesheet" type="text/css" media="screen" />
+<script src="/cdn-cgi/apps/head/vAzQ3pO_LVF9Y_-CSxLP87NslSA.js"></script><link href="assets/plugins/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
+
+
+<link href="assets/plugins/pace/pace-theme-flash.css" rel="stylesheet" type="text/css" media="screen" />
 <link href="assets/plugins/bootstrapv3/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 <link href="assets/plugins/bootstrapv3/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -23,53 +26,21 @@
 
 <body class="error-body no-top">
 <div class="container">
-<div class="row login-container column-seperation">
-<div class="col-md-5 col-md-offset-1">
-<h2>
-Sign in to webarch
-</h2>
-<p>
-Use Facebook, Twitter or your email to sign in.
-<br>
-<a href="#">Sign up Now!</a> for a webarch account,It's free and always will be..
-</p>
-<br>
-<button class="btn btn-block btn-info col-md-8" type="button"><span class="pull-left icon-facebook" style="font-style: italic"></span> <span class="bold">Login with Facebook</span></button>
-<button class="btn btn-block btn-success col-md-8" type="button"><span class="pull-left icon-twitter" style="font-style: italic"></span>
-<span class="bold">Login with Twitter</span></button>
+<div class="lockscreen-wrapper animated  flipInX">
+<div class="row ">
+<div class="col-md-8 col-md-offset-4 col-sm-6 col-sm-offset-4 col-xs-offset-2">
+<div class="profile-wrapper">
+<img width="69" height="69" data-src-retina="assets/img/profiles/avatar2x.jpg" data-src="assets/img/profiles/avatar.jpg" src="assets/img/profiles/avatar.jpg" alt="">
 </div>
-<div class="col-md-5">
-<br>
-<form action="index.html" class="login-form validate" id="login-form" method="post" name="login-form">
-<div class="row">
-<div class="form-group col-md-10">
-<label class="form-label">Username</label>
-<input class="form-control" id="txtusername" name="txtusername" type="email" required>
-</div>
-</div>
-<div class="row">
-<div class="form-group col-md-10">
-<label class="form-label">Password</label> <span class="help"></span>
-<input class="form-control" id="txtpassword" name="txtpassword" type="password" required>
-</div>
-</div>
-<div class="row">
-<div class="control-group col-md-10">
-<div class="checkbox checkbox check-success">
-<a href="#">Trouble login in?</a>&nbsp;&nbsp;
-<input id="checkbox1" type="checkbox" value="1">
-<label for="checkbox1">Keep me reminded</label>
-</div>
-</div>
-</div>
-<div class="row">
-<div class="col-md-10">
-<button class="btn btn-primary btn-cons pull-right" type="submit">Login</button>
-</div>
-</div>
+<form class="user-form" action="index.html" method="post">
+<h2 class="user">John <span class="semi-bold">Smith</span></h2>
+<input type="password" placeholder="Password">
+<button type="submit" class="btn btn-primary "><i class="fa fa-unlock"></i></button>
 </form>
 </div>
 </div>
+</div>
+<div id="push"></div>
 </div>
 
 <script src="assets/plugins/pace/pace.min.js" type="text/javascript"></script>
